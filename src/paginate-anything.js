@@ -26,11 +26,11 @@
 
   angular.module('begriffs.paginate-anything', []).
 
-    directive('begriffs-pagination', function () {
+    directive('paginateAnything', function () {
       var defaultLinkGroupSize = 3, defaultClientLimit = 250, defaultPerPage = 50;
 
       return {
-        restrict: 'AE',
+        restrict: 'A',
         scope: {
           // required
           url: '=',
